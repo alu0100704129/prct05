@@ -8,7 +8,7 @@ class Fraccion
 	
 
 	def initialize(numer, denom)
-		#raise TypeError, "El denominador debe ser mayor que cero" unless (denom != 0)		
+		raise TypeError, "El denominador debe ser mayor que cero" unless (denom != 0)		
 		@numer = numer
 		@denom = denom
 	end

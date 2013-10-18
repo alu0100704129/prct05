@@ -22,7 +22,7 @@ class Test_Fraccion < Test::Unit::TestCase
 	end
 
 	def test_restar
-		assert_equal(Fraccion.new(1, 6).to_s, @frac_1.resta(@frac_2).to_s, "Test Resta")
+		assert_equal(Fracion.new(1, 6).to_s, @frac_1.resta(@frac_2).to_s, "Test Resta")
 	end
 
 	def test_producto
